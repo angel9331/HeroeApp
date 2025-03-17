@@ -21,6 +21,10 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 
+private fun Any.notifyDataSetChanged() {
+
+}
+
 class MainActivity : AppCompatActivity() {
 
     lateinit var recyclerView: RecyclerView
